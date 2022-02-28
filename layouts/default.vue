@@ -1,10 +1,16 @@
 <template>
   <div>
-    <layout-header />
+    <layout-header
+      class="fixed top-0 left-0 right-0 h-[56px] w-full bg-fb-header"
+    />
     <main class="flex min-h-[100vh] pt-main-span">
-      <layout-menu-list />
-      <nuxt />
-      <layout-contact-list />
+      <layout-menu-list
+        class="sticky top-main-span hidden h-full w-full max-w-[360px] lg:block"
+      />
+      <nuxt class="mx-auto h-[200vh] w-full max-w-[744px]" />
+      <layout-contact-list
+        class="sticky top-main-span hidden h-full w-full max-w-[360px] lg:block"
+      />
     </main>
   </div>
 </template>

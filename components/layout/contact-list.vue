@@ -1,5 +1,5 @@
 <template>
-  <div class="sticky top-main-span hidden h-full w-full max-w-[360px] lg:block">
+  <div>
     <p class="w-full bg-green-300">右側聯絡人</p>
   </div>
 </template>
