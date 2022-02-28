@@ -1,17 +1,17 @@
 <template>
-  <!-- <transition
+  <transition
     name="fade"
     mode="out-in"
     enter-active-class="duration-300 opacity-100"
     leave-active-class="duration-300 opacity-100"
-    enter-class="translate-y-[3px] opacity-0"
-    leave-to-class="translate-y-[3px] opacity-0"
-  > -->
-  <transition name="fade" mode="out-in">
+    enter-class="translate-y-[10px] opacity-0"
+    leave-to-class="translate-y-[10px] opacity-0"
+  >
     <component :is="id"></component>
   </transition>
 </template>
 <script>
+  // https://cn.vuejs.org/v2/guide/transitions.html
   export default {
     name: 'PopoverPanel',
     props: {
@@ -22,15 +22,4 @@
     },
   };
 </script>
-<style scoped>
-  .fade-enter-active,
-  .fade-leave-active {
-    opacity: 1;
-    transition: all 0.3s;
-  }
-  .fade-enter,
-  .fade-leave-to {
-    transform: translateY(3px);
-    opacity: 0;
-  }
-</style>
+<style scoped></style>
