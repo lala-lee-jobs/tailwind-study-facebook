@@ -1,7 +1,7 @@
 <template>
   <!-- 限時動態(可scoll) -->
   <div class="relative">
-    <div class="flex overflow-x-auto">
+    <div class="no-scrollbar flex overflow-x-auto">
       <!-- 建立限時動態的卡片 -->
       <div class="min-w-[120px] flex-1 cursor-pointer px-[4px]">
         <div class="flex h-full flex-col">
