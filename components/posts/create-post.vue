@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-4 rounded-lg bg-fb-card px-4 py-3">
+  <div>
     <!-- 文字 Post 建立 -->
     <div class="flex pb-4">
       <div class="mr-3 w-[40px] overflow-hidden rounded-full">

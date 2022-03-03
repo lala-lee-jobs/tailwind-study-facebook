@@ -26,3 +26,7 @@
 .no-scrollbar {
   scrollbar-width: none;
 }
+
+.card {
+  @apply mt-4 rounded-lg bg-fb-card px-4 py-3;
+}
