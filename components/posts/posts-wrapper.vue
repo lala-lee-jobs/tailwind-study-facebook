@@ -1,16 +1,17 @@
 <template>
   <div>
-    <post-header />
-    <post-content />
+    <post-item />
+    <template v-for="n in 5">
+      <post-item :key="`post-item-loading-${n}`" loading />
+    </template>
   </div>
 </template>
 
 <script>
-  import PostContent from './post-content.vue';
-  import PostHeader from './post-header.vue';
+  import PostItem from './post-item.vue';
   export default {
     name: 'PostsWrapper',
-    components: { PostHeader, PostContent },
+    components: { PostItem },
   };
 </script>
 

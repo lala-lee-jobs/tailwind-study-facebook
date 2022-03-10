@@ -26,7 +26,7 @@
       <story-item v-for="n in 5" :id="getId(n)" :key="getId(n)"></story-item>
     </div>
     <button
-      class="popover-btn absolute -right-3 top-[calc(50%-22.5px)] z-10 h-[45px] w-[45px]"
+      class="popover-btn absolute -right-3 top-[calc(50%-22.5px)] z-30 h-[45px] w-[45px]"
     >
       <svg-icon name="right-arrow" class="h-[45px] w-[45px]" />
     </button>

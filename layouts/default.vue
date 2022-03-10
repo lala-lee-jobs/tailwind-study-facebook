@@ -7,7 +7,7 @@
       <layout-menu-list
         class="sticky top-main-span hidden h-full w-full max-w-[360px] pl-4 lg:block"
       />
-      <nuxt class="mx-auto h-[200vh] w-full max-w-[744px]" />
+      <nuxt class="mx-auto w-full max-w-[744px]" />
       <layout-contact-list
         class="sticky top-main-span hidden h-full w-full max-w-[360px] lg:block"
       />

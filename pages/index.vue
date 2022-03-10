@@ -1,6 +1,6 @@
 <template>
   <!-- 動態牆 -->
-  <div class="max-w[745px] mx-auto w-full px-4">
+  <div class="max-w[745px] mx-auto w-full px-4 pb-4">
     <story-list></story-list>
     <posts-wall></posts-wall>
   </div>

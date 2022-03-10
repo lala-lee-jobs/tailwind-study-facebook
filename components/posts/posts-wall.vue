@@ -2,7 +2,7 @@
   <div>
     <create-post class="card"></create-post>
     <live-chat class="card flex pr-0"></live-chat>
-    <posts-wrapper class="card px-0 pb-0"></posts-wrapper>
+    <posts-wrapper></posts-wrapper>
   </div>
 </template>
 
