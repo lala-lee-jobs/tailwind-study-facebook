@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-fb-bg;
+  }
+}
+
+@layer components {
+  .popover-btn {
+    @apply ml-2 flex h-[39px] w-[39px] cursor-pointer items-center justify-center rounded-full bg-fb-popover p-2.5 active:bg-fb-active;
+  }
+  .popover-panel {
+    @apply absolute right-0 top-12 w-[300px] rounded-lg border border-fb-input bg-fb-header p-4 shadow-lg lg:w-[360px];
+  }
+}
+
+/* Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+.card {
+  @apply mt-4 rounded-lg bg-fb-card px-4 py-3;
+}
+
+.swiper-container {
+  overflow: hidden;
+  padding: 5px;
+  position: relative;
+}
+
+.swiper-slide {
+  width: auto !important;
+  margin-right: 0 !important;
+}
+
+.swiper-button-next {
+  background-image: url(https://bruce-fe-fb.web.app/image/right-arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center;
+  border-radius: 100px;
+  background-color: #3e4042;
+  width: 36px !important;
+  height: 36px !important;
+  top: 29px !important;
+}
+
+.swiper-button-prev {
+  background-image: url(https://bruce-fe-fb.web.app/image/left-arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center;
+  border-radius: 100px;
+  background-color: #3e4042;
+  width: 36px !important;
+  height: 36px !important;
+  top: 29px !important;
+}
+
+.swiper-button-next:after {
+  display: none;
+}
+
+.swiper-button-prev:after {
+  display: none;
+}
+
+.swiper-button-disabled {
+  opacity: 0 !important;
+}
